@@ -1,5 +1,79 @@
 # __CC2, Tetris Project__
 
+## _26th of September:_
+With all the new (harder) topics and subjects being built upon eachother and really piling up, this past week has been slower than before.
+### _Reflection Questions for 26/09/2021_
+1. What was your goal for this deliverable, as defined on your Learning Plan?
+My goal was to have the lesson "Arrays and Loops" on Codeacademy (the program I've been using to learn C#) completed.
+2. Did you meet this goal?
+I did not.
+3. What needs to happen for you to stay on schedule from this point forward?
+According to the timeline, I should start working on the foundation of the game, but I still don't feel I have a good grasp of C#. Especially because I haven't yet completed the "Loops" lesson, which I already know is going to be vital to my project. I think I'll spend the next few lessons still working on learning C#.
+
+### _Learning_
+{insert video link here}
+
+#### *Examples*
+_Ex. 1:_ This is an example of _Lambda Expressions_, which passes a method as an argument. The result is the Console printing "At least one space rock has reached the Earth's surface!", because _makesContact_ is true. _makesContact_ is set to true because it's objective is to check if "meteoroid", "meteor" or "meteorite" exist, which it does because of the _Lamba Expression_. The argument is on line 11, while the method is on line 19.
+```
+using System;
+
+namespace AlternateExpressions
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string[] spaceRocks = {"meteoroid", "meteor", "meteorite"};
+      
+      bool makesContact = Array.Exists(spaceRocks, (string s) => s == "meteorite");
+      
+      if (makesContact)
+      {
+        Console.WriteLine("At least one space rock has reached the Earth's surface!");
+      } 
+    } 
+    
+    static bool HitGround(string s)
+    {
+      return s == "meteorite";
+    }
+  }
+}
+```
+_Ex. 2:_ The following is an example of an _Array_ (line 11). It's essentially a list of things and I can use different properties to find and exploit information from the list. Line 7, for example, states that _if_ the length of the _array_ is equal to 8, the console will print a message. There are also 2 more messages concerning the length of the _array_.
+```
+using System;
+
+namespace ArrayLength
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string[] summerStrut;
+
+      summerStrut = new string[] { "Juice", "Missing U", "Raspberry Beret", "New York Groove", "Make Me Feel", "Rebel Rebel", "Despacito", "Los Angeles", "Bandit" };
+      if (summerStrut.Length == 8)
+      {
+        Console.WriteLine("summerStrut Playlist is ready to go!");
+      }
+      else if (summerStrut.Length > 8)
+      {
+        Console.WriteLine("Too many songs!");
+      }
+      else if (summerStrut.Length < 8)
+      {
+        Console.WriteLine("Add some songs!");
+      }
+
+    
+    }
+  }
+}
+
+```
+
 ## _20th of September:_
 So far I have been learning C# using Codeacademy and I think it's going well, albeit a bit slower than I anticipated.
 ### _Reflection Questions for 20/09/2021_
