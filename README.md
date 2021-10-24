@@ -1,5 +1,88 @@
 # __CC2, Tetris Project__
 
+## _12th of October:_
+I haven't really focused that much on learning C# or followed the lessons step-by-step because I felt like what I was learning wouldn't be _that_ useful for what I want to create. Instead I skipped a few lessons and learned what I felt was truly necessary.
+
+### _Reflection Questions for 12/10/2021_
+1. What was your goal for this deliverable, as defined on your Learning Plan?
+My goal was to have "A general play field, Tetris Sprites and Gravity Physics" all completely coded in Unity.
+2. Did you meet this goal?
+I did not, sort of. I haven't properly coded anything yet, but instead I wrote all necessary elements of a Tetris game into a document I made. It isn't in proper coding syntax, but the ideas are all there.
+3. What happens for you to stay on schedule from this point forward?
+From now on I should start actually coding my project, which I have yet to start. On top of that, I should also start using familiarizing myself with Unity.
+
+### _Learning_
+https://watch.screencastify.com/v/CALvv4invHaaNdBaoiru
+
+### Examples
+_Ex. 1:_ I learned how to define a class, which is pretty simple but I was stuck for a while because I simply didn't realise there had to be a seperate .cs file. This example is of a class with 4 brief lines of code, called fields.
+
+```
+Forest.cs
+using System;
+
+namespace BasicClasses
+{
+  class Forest
+  {
+    public string name;
+    public int trees;
+    public int age;
+    public string biome;
+  }
+}
+```
+In program.cs, it connects the fields written in Forest.cs.
+```
+using System;
+
+namespace BasicClasses
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Forest f = new Forest();
+      f.name = "Amazon Rain Forest";
+      f.trees = 100000000;
+      f.age = 3000;
+      f.biome = "Jungle";
+      Console.WriteLine(f.name);
+    }
+  }
+}
+```
+_Ex. 2:_ I also fully learned about loops and different types of loops, which I really need when making Tetris. The following is a for loop, which will repeat "CreateTemplate;" 17 times, which is visible in line 9. The entire piece of code basically creates an automatic template which includes important announcements for each week.
+```
+using System;
+
+namespace ForLoop
+{
+  class Program
+  {
+    static void Main(string[] args)
+    { 
+      for (int i = 0; i < 17; i++)
+      {
+        CreateTemplate(i);
+      }
+
+    }
+    
+    static void CreateTemplate(int week)
+    {
+      Console.WriteLine($"Week {week}");
+      Console.WriteLine("Announcements: \n \n \n ");
+      Console.WriteLine("Report Backs: \n \n \n");
+      Console.WriteLine("Discussion Items: \n \n \n");
+    }
+    
+    
+  }
+}
+```
+
+
 ## _26th of September:_
 With all the new (harder) topics and subjects being built upon eachother and really piling up, this past week has been slower than before.
 ### _Reflection Questions for 26/09/2021_
@@ -11,7 +94,7 @@ I did not.
 According to the timeline, I should start working on the foundation of the game, but I still don't feel I have a good grasp of C#. Especially because I haven't yet completed the "Loops" lesson, which I already know is going to be vital to my project. I think I'll spend the next few lessons still working on learning C#.
 
 ### _Learning_
-{insert video link here}
+https://watch.screencastify.com/v/CALvv4invHaaNdBaoiru
 
 #### *Examples*
 _Ex. 1:_ This is an example of _Lambda Expressions_, which passes a method as an argument. The result is the Console printing "At least one space rock has reached the Earth's surface!", because _makesContact_ is true. _makesContact_ is set to true because it's objective is to check if "meteoroid", "meteor" or "meteorite" exist, which it does because of the _Lamba Expression_. The argument is on line 11, while the method is on line 19.
