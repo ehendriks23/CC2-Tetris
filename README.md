@@ -1,5 +1,28 @@
 # __CC2, Tetris Project__
 
+## _29th of November:_
+
+### _Reflection Questions for 29/11/2021_
+1. What was your goal for this deliverable, as defined on your Learning Plan?
+As stated in my previous reflection questions, I've just been ignoring my Learning Plan. In my mind I also haven't really come up with a different goal.
+2. Did you meet this goal?
+Because I didn't have a goal, I'll just state what I've done. So far, I've created the all different sprites and a general playing area. I'm still struggling with the implementation of the sprites. 
+3. What needs to happen for you to stay on schedule from this point forward?
+I'll work a lot during Winter Break at home, since I'm not going anywhere and it's also just a lot more comfortable to work at home instead of at school.
+
+
+## _16th of November:_
+I continued to work a bit on CodeAcademy, but nothing was that notable. Most of the time, I instead tried figuring out Unity. There was actually a problem with that for a bit because Unity has some built in features, separate from C#, that just weren't working for me. Eventually I figured it out, so now it's working.
+
+### _Reflection Questions for 16/11/2021_
+1. What was your goal for this deliverable, as defined on your Learning Plan?
+After having discussed with Mr. Bowman, I haven't really been sticking to my Learning Plan. In my mind, my goal was to just having something falling moving in Unity. 
+2. Did you meet this goal?
+I met the one I set in my mind, not the one on the Learning Plan.
+3. What needs to happen for you to stay on schedule from this point forward?
+With Winter Break coming soon, I can do a lot of work then. During class, however, now that I'm working with sprites and GameObjects it's quite annoying and tough to do a lot of work, because I'm working on just my laptop. My plan from now is to finally start the Tetris game.
+
+
 ## _12th of October:_
 I haven't really focused that much on learning C# or followed the lessons step-by-step because I felt like what I was learning wouldn't be _that_ useful for what I want to create. Instead I skipped a few lessons and learned what I felt was truly necessary.
 
