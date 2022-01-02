@@ -2,6 +2,9 @@
 
 ## _29th of November:_
 
+### _Feedback Plan_
+For my feedback, I'll probably just send the game to a couple of friends and have them play test for as long as they want (maybe a deadline of a day or two?).
+
 ### _Reflection Questions for 29/11/2021_
 1. What was your goal for this deliverable, as defined on your Learning Plan?
 As stated in my previous reflection questions, I've just been ignoring my Learning Plan. In my mind I also haven't really come up with a different goal.
