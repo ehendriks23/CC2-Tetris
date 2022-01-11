@@ -1,5 +1,19 @@
 # __CC2, Tetris Project__
 
+
+## _6th of December:_
+
+Because time is running out on the project and I keep running into roadblocks, I started following a tutorial for normal Tetris, however I'll still have to adjust everything to my liking and my modifications to the game. I'll be sure to make it clear what I had to change in order for the game to function. 
+The video I'm following is: "How to make Tetris in Unity (Complete Tutorial) https://www.youtube.com/watch?v=ODLzYI4d-J8"
+
+### _Reflection Questions for 06/12/2021_
+1. What was your goal for this deliverable, as defined on your Learning Plan?
+As stated in my previous reflection questions, I've just been ignoring my Learning Plan. So far I'm just following the video and working on the "Tetromino Data" and "Spawning/Setting" part of the video.
+2. Did you meet this goal?
+Yes, though it's not really a goal but just something I'm following for now.
+3. What needs to happen for you to stay on schedule from this point forward?
+I need to thoroughly keep working during the Winter Break.
+
 ## _29th of November:_
 
 ### _Feedback Plan_
