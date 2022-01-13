@@ -1,5 +1,34 @@
 # __CC2, Tetris Project__
 
+# HEAVY DISCLAIMER
+I followed a tutorial for most of the code once I realized how tough this project was for a complete beginner like me. 
+The tutorial is called "TETRIS IN UNITY - TUTORIAL" by Clipper, https://www.youtube.com/watch?v=nlFbKkoyJIs&t=2113s&ab_channel=Clipper.
+I also realized my idea isn't entirely original (having Tetrominos made up of 5 blocks, instead of 4) as mid-development I realized something called "Pentris" exists, which is exactly that idea.
+I did handwrite all of the code and I also ran into a few obstacles, because of mistakes I made, alternative lines of code I wrote, which often didn't end up working. 
+My major obstacle came from the fact that the video explains how to make normal Tetris, not "Pentris", but overall it wasn't that big of an issue.
+
+# Process Documentation
+
+## Iterative Development:
+I don't have any screenshots of past bugs or failures, however I remember at the start I had a lot of issues with Unity and Vis Studio. The one that confused me the most was when Unity and Visual Studio's Intellisense wasn't properly integrated, so none of the Unity parts of my code were working. For example, in the code, you'll find a lot of "gameObject"'s present. A gameObject is basically _anything_ in Unity, so being able to alter it in the code is incredibly useful. However, when the Unity/Vis Studio integration wasn't working, all of the gameObject's in the code would be rendered obsolete. This wasn't a code problem, so much a software problem. I watched a 5 step video on how to get Intellisense to work properly.
+
+A more practical issue I ran into was when Unity loaded the position of my Tetromino blocks somewhere completely seperate from the actual sprites. So in the code, everything would be working fine, but the player wouldn't be able to see the actual Tetromino. I ended up deleted all my sprites and some of the code attached to them and recreated everything, which somehow ended up working. To this day, I'm still not quite sure what changed.
+
+## Incremental Development:
+The first of my three stages was when I created a single sprite and had it fall to the ground at a constant rate. This was when I just began using Unity, so it felt like a big accomplishment.
+
+The second stage was creating rotations. All in all it's a pretty simple line of code along the lines of 
+```
+if (Input.GetKeyDown(KeyCode.Space))
+            {
+                rig.transform.eulerAngles += new Vector3(0, 0, 90);
+```
+However, by that time I had created all my Tetrominos, created left and right movement, manual dropping and wall and floor collisions.
+
+The last stage would be having the feature of clearing lines. The big difference between the second and third stage would be collision between Tetrominos, which lead to the ability to clear a line, a distinct feature of Tetris.
+
+## Feedback:
+
 
 ## _6th of December:_
 
