@@ -28,7 +28,7 @@ However, by that time I had created all my Tetrominos, created left and right mo
 The last stage would be having the feature of clearing lines. The big difference between the second and third stage would be collision between Tetrominos, which lead to the ability to clear a line, a distinct feature of Tetris.
 
 ## Feedback:
-
+In all honesty, I procrastinated and delayed this project to the point where I couldn't ask people for any feedback. However, this is something I noticed while live playtesting. Sometimes, Tetrominos will attack to other Tetrominos mid-air, they haven't actually touched anything _below_ them, but because they are interacting with another Tetromino, they "attach".
 
 ## _6th of December:_
 
