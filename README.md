@@ -6,6 +6,7 @@ The tutorial is called "TETRIS IN UNITY - TUTORIAL" by Clipper, https://www.yout
 I also realized my idea isn't entirely original (having Tetrominos made up of 5 blocks, instead of 4) as mid-development I realized something called "Pentris" exists, which is exactly that idea.
 I did handwrite all of the code and I also ran into a few obstacles, because of mistakes I made, alternative lines of code I wrote, which often didn't end up working. 
 My major obstacle came from the fact that the video explains how to make normal Tetris, not "Pentris", but overall it wasn't that big of an issue.
+Whilst I didn't come up with most of the code, after spending the first few weeks of the semester learning C# and spending the rest of it using and learning Unity, I am able to explain most of the code.
 
 # Process Documentation
 
