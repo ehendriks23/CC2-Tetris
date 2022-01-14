@@ -15,6 +15,31 @@ I don't have any screenshots of past bugs or failures, however I remember at the
 
 A more practical issue I ran into was when Unity loaded the position of my Tetromino blocks somewhere completely seperate from the actual sprites. So in the code, everything would be working fine, but the player wouldn't be able to see the actual Tetromino. I ended up deleted all my sprites and some of the code attached to them and recreated everything, which somehow ended up working. To this day, I'm still not quite sure what changed.
 
+A much more minor problem, though still had me confused for a while, was whenever a Tetromino would hit the wall, it would freeze in place there. 
+I have a boolean "movable" function that states whether or not a Tetromino can move.
+The problem was that I accidentally added it to following code, which moves a Tetromino left or right, and checks if it's valid, through "if (!CheckValid())".
+```
+//Moving Left and Right.
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                gameObject.transform.position -= new Vector3(1, 0, 0);
+                if (!CheckValid())
+                {
+                    gameObject.transform.position += new Vector3(1, 0, 0);
+                }
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                gameObject.transform.position += new Vector3(1, 0, 0);
+                if(!CheckValid())
+                {
+                    gameObject.transform.position -= new Vector3(1, 0, 0);
+                }
+            }
+```
+
 ## Incremental Development:
 The first of my three stages was when I created a single sprite and had it fall to the ground at a constant rate. This was when I just began using Unity, so it felt like a big accomplishment.
 
